@@ -1,0 +1,40 @@
+{
+  "name": "etdolores",
+  "version": "1.0.0",
+  "description": "Async npm module for Node JS that reads the first line of a file",
+  "main": "firstline.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FaeAnderson/etdolores.git"
+  },
+  "keywords": [
+    "aut",
+    "quisquam",
+    "file",
+    "content",
+    "filesystem",
+    "accusamus",
+    "nisi",
+    "ut",
+    "reprehenderit"
+  ],
+  "author": "RosemaryRunolfsdottir",
+  "license": "MIT",
+  "homepage": "https://github.com/FaeAnderson/etdolores.git",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "coveralls": "^2.11.8",
+    "istanbul": "^0.4.2",
+    "js-promisify": "^1.0.3",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
+  }
+}
